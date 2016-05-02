@@ -1,0 +1,89 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	width:100%;
+	background-image:url("../images/01.jpg");
+	background-repeat:no-repeat;
+}
+h1{
+	width:200px;
+	height:60px;
+	margin:150px auto 0px;
+	font-weight:inherit;
+	font-size:16px;
+}
+span:nth-of-type(1){
+	width:37px;
+	height:18px;
+	background-color:rgba(255,255,255,0.2);
+	color:#fff;
+	vertical-align:top;
+}
+.box{
+	width:1000px;
+	height:200px;
+	background-color:#fff;
+	margin:40px auto;
+	border-radius:10px;
+	text-align:center;
+	font:25px/50px "黑体";
+	position:relative;
+}
+.box input[type]{
+	height:25px;
+	vertical-align:midde;
+}
+.box button{
+	padding:5px;
+	background-color:#00CCFF;
+	border:1px solid #00CC99;
+	border-radius:5px;
+	color:#fff;
+}
+.box button:hover{
+	background-color:#000099;
+	border:1px solid #000066;
+}
+.box p{
+	height:50px;
+}
+.box .radius{
+	width:50px;
+	height:50px;
+	border-radius:100%;
+	background-color:#fff;
+	position:absolute;
+	top:80px;
+	left:-30px;
+	color:#00CCCC;
+}
+
+
+.box{
+	width:800px;
+	height:200px;
+	background-color:#fff;
+	margin:40px auto;
+	border-radius:10px;
+	text-align:center;
+	font:25px/50px "黑体";
+	position:relative;
+}
+.box input[type]{
+	width:100px;
+	height:25px;
+	vertical-align:midde;
+}
+.box .radius{
+	width:50px;
+	height:50px;
+	border-radius:100%;
+	background-color:#fff;
+	position:absolute;
+	top:50px;
+	left:30px;
+	color:#00CCCC;
+}
